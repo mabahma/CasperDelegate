@@ -78,7 +78,7 @@ Installez les packages et créez les contrats intelligents (smart contrats):  <b
 
 * Démarrez le script de délégation et suivez les instructions: <b> ./delegate.sh</b>
 
-* Prenez note du   <b>hash du déploiement</>. Si tout se passe bien, vous pouvez voir le résultat de votre délégation en quelques minutes en copiant-collant votre hash de déploiement sur cspr.live.
+* Prenez note du   <b>hash </b> du déploiement. Si tout se passe bien, vous pouvez voir le résultat de votre délégation en quelques minutes en copiant-collant votre hash de déploiement sur cspr.live.
 
 
 Vous êtes invité à déléguer sur notre  node qui propose des frais de 1%:  <b>01c6d11a0fa563f8cc3ed5e967d5901c80004bdcde6250ddea18af2b4eae0a902d</b>  
