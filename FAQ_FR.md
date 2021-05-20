@@ -26,7 +26,7 @@ Bien qu'il y ait un délai avant que vous puissiez accéder à vos jetons préc�
  
 Actuellement, la barre oblique n'est pas activée sur Casper MainNet. Si un validateur se comporte mal sur le réseau, il peut être expulsé de l'enchère et vos récompenses seront perdues pendant la période pendant laquelle le validateur est expulsé. Lorsque la barre oblique est activée, les jetons seront supprimés en cas de mauvais comportement du réseau. Dans ce cas, vous perdrez les récompenses qui seraient gagnées au cours de cette période.
 
-  <h2> Quel est le coût de la délégation et de la non-délégation? </h2>
+  <h2> Quel est le coût de la délégation et de la non-délégation (undelegate)? </h2>
 
 
 Le coût du processus de délégation est d'environ 3 CSPR. Assurez-vous donc d'avoir un tas de CSPR supplémentaires sur votre compte en dehors du montant que vous déléguez. Donc, si vous allez déléguer 1000 CSPR, vous devriez avoir au moins 1003 CSPR dans votre portefeuille.Le coût du processus non délégué est actuellement de 0,00001 CSPR.
