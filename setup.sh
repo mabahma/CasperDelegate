@@ -41,10 +41,12 @@ echo -e "\n\n-------------------------------------------------------------------
 
 echo -e "${GREEN}Requirements have been installed. You are ready to delegate.\n"
 
-echo -e "* Save your account key (private key) with this name to the home directory: ${RED}privkey.pem${NC}"
-echo -e "${GREEN}* You can start the delegation procedure with this command: ${RED}./delegate${NC}"
+echo -e "* Sauvegardez votre clé privé private key) avec ce nom : privkey.pem dans votre *home directory*: ${RED}privkey.pem${NC}"
+echo -e "${GREEN}* Vosu pouvez lancer le processus de délégation avec la commande : ${RED}./delegate${NC}"
 echo
-echo -e "${GREEN}* You can check your account balance with this command: ${RED}./balance YOUR-ACCOUNT-ADDRESS${NC}"
+echo -e "${GREEN}* Vous pouvez voir votre solde cspr avec cette commande: ${RED}./balance YOUR-ACCOUNT-ADDRESS${NC}"
 echo
-echo -e "${GREEN}* Note: You need to have at least ${RED}3 CSPR${GREEN} in your account in addition to the amount you would like to delegate. It is the network cost of the delegation.${NC}"
-echo -e "${RED}* ATTENTION: Try the whole procedure with a small amount first, and make sure all goes as expected. Responsibility of erronous outcomes and losses is completely on you. Authors of the script acts in good faith, but they shall not provide any guarantees.${NC}\n"
+echo -e "${GREEN}* Note: vosu devz avoir au moins ${RED}3 CSPR${GREEN} dans votre compte en plus du montant que vosu voulez déléguer. C'est le prix du gas
+pour déléguer.${NC}"
+echo -e "${RED}* ATTENTION: Essayer d'abord la procédure avec de tout petit montants et assurez vosu que tout marche avant de la lancer avec de gros montants
+${NC}\n"
