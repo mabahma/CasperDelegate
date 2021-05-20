@@ -48,5 +48,5 @@ echo -e "${GREEN}* Vous pouvez voir votre solde cspr avec cette commande: ${RED}
 echo
 echo -e "${GREEN}* Note: vosu devz avoir au moins ${RED}3 CSPR${GREEN} dans votre compte en plus du montant que vosu voulez déléguer. C'est le prix du gas
 pour déléguer.${NC}"
-echo -e "${RED}* ATTENTION: Essayer d'abord la procédure avec de tout petit montants et assurez vosu que tout marche avant de la lancer avec de gros montants
+echo -e "${RED}* ATTENTION: Essayer d'abord la procédure avec de tout petits montants et assurez vosu que tout marche avant de la lancer avec de gros montants. Nous déclinons toute responsabilitée en cas de perte des jetons.
 ${NC}\n"
