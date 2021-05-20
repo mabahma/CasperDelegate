@@ -42,7 +42,7 @@ echo -e "\n\n-------------------------------------------------------------------
 echo -e "${GREEN}Requirements have been installed. You are ready to delegate.\n"
 
 echo -e "* Sauvegardez votre clé privé private key) avec ce nom : privkey.pem dans votre *home directory*: ${RED}privkey.pem${NC}"
-echo -e "${GREEN}* Vosu pouvez lancer le processus de délégation avec la commande : ${RED}./delegate${NC}"
+echo -e "${GREEN}* Vous pouvez lancer le processus de délégation avec la commande : ${RED}./delegate${NC}"
 echo
 echo -e "${GREEN}* Vous pouvez voir votre solde cspr avec cette commande: ${RED}./balance YOUR-ACCOUNT-ADDRESS${NC}"
 echo
