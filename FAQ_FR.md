@@ -6,7 +6,7 @@ Vous pouvez trouver la documentation officielle ici: https://docs.casperlabs.io/
 
 Si vous voyez quelque chose d'incorrect ou quelque chose qui manque, n'hésitez pas à créer une pull request pour contribuer.
 
-<h2>Qu'est-ce que la délégation? </h2>
+<h2>Qu'est-ce que la délégation/staking? </h2>
 
 La délégation attribue vos jetons CSPR à un validateur choisi sur le réseau qui participe au protocole de consensus du réseau Casper. Comme preuve de réseau d'enjeu, 
 les opérateurs de nœuds `` mettent '' leurs jetons pour gagner l'élibilité de proposer de nouveaux blocs pour le réseau, mais nécessitant une disponibilité et une surveillance 
