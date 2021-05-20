@@ -24,7 +24,7 @@ Bien qu'il y ait un délai avant que vous puissiez accéder à vos jetons préc�
  <h2> Y a-t-il du slashing? Puis-je perdre mes jetons délégués?</h2>
  
  
-Actuellement, la barre oblique n'est pas activée sur Casper MainNet. Si un validateur se comporte mal sur le réseau, il peut être expulsé de l'enchère et vos récompenses seront perdues pendant la période pendant laquelle le validateur est expulsé. Lorsque la barre oblique est activée, les jetons seront supprimés en cas de mauvais comportement du réseau. Dans ce cas, vous perdrez les récompenses qui seraient gagnées au cours de cette période.
+Actuellement, le slashing n'est pas activée sur Casper MainNet. Si un validateur se comporte mal sur le réseau, il peut être expulsé de l'enchère et vos récompenses seront perdues pendant la période pendant laquelle le validateur est expulsé. Lorsque le slashing sera activée, les jetons seront supprimés en cas de mauvais comportement du réseau. Dans ce cas, vous perdrez les récompenses qui seraient gagnées au cours de cette période.
 
   <h2> Quel est le coût de la délégation et de la non-délégation (undelegate)? </h2>
 
