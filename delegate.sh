@@ -19,8 +19,8 @@ echo -e "\n${GREEN}Saisissez l'adresse (public key) du validateur auquel vous vo
 read VALIDATOR_PUBKEY
 
 echo -e "\n${RED} Saisissez   YES  puis enter si tout est ok .Sinon , saisissez NO et recommencez à exécuterle script .${NC}\n"
-echo -e "${GREEN}Delegator public key: $DELEGATOR_PUBKEY ${NC}"
-echo -e "${GREEN}Validator public key: $VALIDATOR_PUBKEY ${NC}"
+echo -e "${GREEN}Clé publique du délégaunt: $DELEGATOR_PUBKEY ${NC}"
+echo -e "${GREEN}Clé publique du validateur: $VALIDATOR_PUBKEY ${NC}"
 echo -e "${GREEN}montant à déléguer: $DELEGATE_AMOUNT ${NC}"
 echo -e "${GREEN}montant à déléguer en motes: $DELEGATE_MOTES ${NC}"
 
@@ -31,5 +31,5 @@ if [[ $ANSWER == "YES" ]]
 then
   casper-client put-deploy --chain-name casper --node-address http://185.198.72.171:7777 -k $HOME/privkey.pem --session-path "$HOME/casper-node/target/wasm32-unknown-unknown/release/delegate.wasm" --payment-amount 3000000000  --session-arg "validator:public_key='$VALIDATOR_PUBKEY'" --session-arg="amount:u512='$DELEGATE_MOTES'" --session-arg "delegator:public_key='$DELEGATOR_PUBKEY'"
 else
-  echo "Merci de ré executer le script avec des information correctes."
+  echo "Merci de ré executer le script avec des informations correctes."
 fi
