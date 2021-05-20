@@ -4,17 +4,20 @@ la manière de la ligne de commande
 Ces scripts sont écrits pour aider les détenteurs de jetons CSPR à déléguer facilement leurs jetons aux validateurs sur le réseau principal Casper jusqu'à ce qu'une solution d'interface utilisateur complète arrive.
   
 
-Vous avez des questions sur la délégation / le jalonnement Casper?
-Voir la FAQ sur la délégation / le jalonnement de Casper.
+Vous avez des questions sur la délégation / le staking Casper?
 
-Conditions préalables:
+Voir <a href="https://github.com/mabahma/CasperDelegate/blob/main/FAQ_FR.md">la FAQ sur la délégation / le staking de Casper</a>
+
+
+<h1>Conditions préalables:</h1>
 
 Afin de déléguer vos jetons, vous devez avoir créé un portefeuille pour vous-même et transféré vos jetons de l'ecxhange vers votre portefeuille. 
 Si vous n'avez pas de portefeuille, vous pouvez en créer un en suivant ces étapes:
 
 Installez le navigateur Brave (recommandé) ou Chrome.
 
-Courageux: https://brave.com/
+Brave: https://brave.com/
+
 Chrome: https://www.google.com/intl/en/chrome/
 
 Accédez à la page de connexion de Casper Explorer: https://cspr.live/sign-in
@@ -37,7 +40,7 @@ Les détails de votre compte sont affichés ici. S'il s'agit d'un nouveau compte
 
 La clé publique affichée ici est votre numéro de compte. Vous pouvez l'utiliser pour transférer des fonds sur votre compte à partir des échanges.
 
-Remarques:
+<h1>Remarques: </h1>
 
 Essayez toujours d'abord le transfert et la délégation avec un petit montant et assurez-vous que tout fonctionne comme prévu.
 Parfois, cspr.live ou le navigateur courageux peuvent ne pas mettre à jour correctement la page des détails du compte. 
@@ -45,7 +48,8 @@ Donc, si vous effectuez un transfert et que vous ne pouvez pas voir le solde du 
 
 
 
-Installation
+<h1>Installation </h1>
+
 Accédez à un environnement Ubuntu 20.04 (avec au moins 2 Go de RAM pour un minimum, au moins 3 Go de RAM pour les installations de bureau) en tant que root.
  Si vous n'y avez pas encore accès, vous pouvez essayer l'une des méthodes suivantes:
 Vous pouvez le faire en lançant un nœud sur Digital Ocean (lien de référence pour les crédits gratuits pour les nouvelles inscriptions: https://m.do.co/c/0b83fa02ff5a), 
@@ -60,14 +64,17 @@ Installez VirtualBox ou une autre solution VM sur votre PC et installez Ubuntu 2
 Activez le sous-système Windows pour Linux 2 et installez Ubuntu 20.04 à partir du magasin
 Copiez votre fichier de compte dans votre répertoire personnel (/ root) sur Ubuntu avec le nom privkey.pem
 
-Installez git et curl: apt install -y git curl
-Clonez ce référentiel: git clone https://github.com/TestNetRun/CasperDelegate.git
-Déplacez-vous dedans: cd CasperDelegate
-Installez les packages et créez les contrats intelligents (smart contrats): ./setup.sh
+Installez git et curl:  <b> apt install -y git curl </b>
 
+Clonez ce référentiel: <b> git clone https://github.com/mabahma/CasperDelegate.git </b>
 
-Délégation
-Approvisionnez votre compte et vérifiez son solde avec ./balance.sh ACCOUNT-ADDRESS
+Déplacez-vous dedans:  <b>cd CasperDelegate </b>
+
+Installez les packages et créez les contrats intelligents (smart contrats):  <b>./setup.sh </b>
+
+<h1>Délégation </h1>
+
+Approvisionnez votre compte et vérifiez son solde avec <b>./balance.sh ACCOUNT-ADDRESS </b>
 
 Assurez-vous que vous disposez d'un nombre suffisant de CSPR. Vous aurez besoin d'au moins 3 CSPR supplémentaires qui seront le coût de la procédure de délégation.
 
@@ -81,7 +88,8 @@ Sinon, vous pouvez poser des questions générales sur le serveur Discord offici
 
 Liste des validateurs actuels: https://cspr.live/validators
 
-Démarrez le script de délégation et suivez les instructions: ./delegate.sh
+
+Démarrez le script de délégation et suivez les instructions: <b> ./delegate.sh</b>
 
 Prenez note du hachage du déploiement. Si tout se passe bien, vous pouvez voir le résultat de votre délégation en quelques minutes en copiant-collant votre hachage de déploiement sur cspr.live.
 
