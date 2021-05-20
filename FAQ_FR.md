@@ -8,7 +8,7 @@ Si vous voyez quelque chose d'incorrect ou quelque chose qui manque, n'hésitez 
 
 <h2>Qu'est-ce que la délégation/staking? </h2>
 
-La délégation attribue vos jetons CSPR à un validateur choisi sur le réseau qui participe au protocole de consensus du réseau Casper. Comme preuve de réseau d'enjeu,  les opérateurs de nœuds  mettent  leurs jetons pour gagner de l'élibilité de proposer de nouveaux blocs pour le réseau, mais nécessitant une disponibilité et une surveillance  constantes d'un serveur connecté au réseau Casper, au lieu de  <<miner>> comme les autres jetons.
+La délégation attribue vos jetons CSPR à un validateur choisi sur le réseau qui participe au protocole de consensus du réseau Casper. Comme preuve de réseau d'enjeu,  les opérateurs de nœuds  mettent  leurs jetons pour gagner  l'éligibilité de proposer de nouveaux blocs pour le réseau, mais nécessitant une disponibilité et une surveillance  constantes d'un serveur connecté au réseau Casper, au lieu de  <<miner>> comme les autres jetons.
 
 Au lieu d'avoir à exploiter et à maintenir un nœud casper (serveur qui stocke une copie de la blockchain), vous pouvez à la place déléguer vos jetons à quelqu'un sur le réseau qui 
 a indiqué son intention d'exploiter un serveur sur le réseau. Ces opérateurs de serveur sont appelés validateurs et conservent un certain pourcentage de récompenses générées à partir de vos jetons jalonnés, similaire à une commission. Les validateurs fixent leurs propres frais et gagnent des récompenses pour leurs propres jetons jalonnés. En participant au protocole de cette manière, vous contribuez à améliorer la décentralisation et la sécurité du réseau, et gagnez des récompenses en retour.
