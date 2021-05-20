@@ -1,6 +1,6 @@
-<h1>CasperDelegate Scripts </h1> 
+<h1>Script CasperDelegate  : staker vos jetons cspr en ligne de commande </h1> 
 
-la manière de la ligne de commande
+
 Ces scripts sont écrits pour aider les détenteurs de jetons CSPR à déléguer facilement leurs jetons aux validateurs sur le réseau principal Casper jusqu'à ce qu'une solution d'interface utilisateur complète arrive.
   
 
@@ -47,14 +47,11 @@ Parfois, cspr.live ou le navigateur courageux peuvent ne pas mettre à jour corr
 Donc, si vous effectuez un transfert et que vous ne pouvez pas voir le solde du compte après une longue période, essayez de fermer complètement l'onglet du navigateur, de le rouvrir et de vous reconnecter.
 
 
-
 <h1>Installation </h1>
 
 Accédez à un environnement Ubuntu 20.04 (avec au moins 2 Go de RAM pour un minimum, au moins 3 Go de RAM pour les installations de bureau) en tant que root.
  Si vous n'y avez pas encore accès, vous pouvez essayer l'une des méthodes suivantes:
-Vous pouvez le faire en lançant un nœud sur Digital Ocean (lien de référence pour les crédits gratuits pour les nouvelles inscriptions: https://m.do.co/c/0b83fa02ff5a), 
-
-et en y accédant via ssh (depuis le terminal MacOS ou depuis le terminal Windows) )
+Vous pouvez le faire en lançant un nœud sur Digital Ocean (lien de référence pour les crédits gratuits pour les nouvelles inscriptions: https://m.do.co/c/0b83fa02ff5a), et en y accédant via ssh (depuis le terminal MacOS ou depuis le terminal Windows) )
 Remarques sur l'utilisation d'une VM / VPS cloud: si possible, optez pour un VPS décent avec un taux horaire. 
 Vous pouvez rapidement terminer votre travail, puis détruire le VPS. Une fois que vous avez terminé avec la délégation, 
 
