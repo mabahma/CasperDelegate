@@ -75,7 +75,20 @@ Approvisionnez votre compte et vérifiez son solde avec <b>./balance.sh ACCOUNT-
 
 Assurez-vous que vous disposez d'un nombre suffisant de CSPR. Vous aurez besoin d'au moins 3 CSPR supplémentaires qui seront le coût de la procédure de délégation.
 
-Trouvez-vous un validateur et notez sa clé publique (Vous êtes invité à déléguer sur notre  : 01c6d11a0fa563f8cc3ed5e967d5901c80004bdcde6250ddea18af2b4eae0a902d)
+Trouvez-vous un validateur et notez sa clé publique.
+
+
+Démarrez le script de délégation et suivez les instructions: <b> ./delegate.sh</b>
+
+Prenez note du hachage du déploiement. Si tout se passe bien, vous pouvez voir le résultat de votre délégation en quelques minutes en copiant-collant votre 
+hachage de déploiement sur cspr.live.
+
+
+Vous êtes invité à déléguer sur notre  node qui propose des frais de 1%:  <b>01c6d11a0fa563f8cc3ed5e967d5901c80004bdcde6250ddea18af2b4eae0a902d</b>  
+
+Nous facturons 1% sur les récompenses de bloc reçues par nos délégués. Par exemple, si un délégant reçoit 100 CSPR en récompense, nous prelevrons 1 CSPR tandis que le délégué recevra 99 CSPR.
+
+Etat du Validateur : https://cspr.live/validator/01c6d11a0fa563f8cc3ed5e967d5901c80004bdcde6250ddea18af2b4eae0a902d
 
 Assurez-vous que le validateur que vous choisissez a un taux de commission acceptable et est capable de maintenir une disponibilité élevée.
 
@@ -85,8 +98,4 @@ Sinon, vous pouvez poser des questions générales sur le serveur Discord offici
 
 Liste des validateurs actuels: https://cspr.live/validators
 
-
-Démarrez le script de délégation et suivez les instructions: <b> ./delegate.sh</b>
-
-Prenez note du hachage du déploiement. Si tout se passe bien, vous pouvez voir le résultat de votre délégation en quelques minutes en copiant-collant votre hachage de déploiement sur cspr.live.
 
