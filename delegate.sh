@@ -24,7 +24,7 @@ echo -e "${GREEN}Clé publique du validateur: $VALIDATOR_PUBKEY ${NC}"
 echo -e "${GREEN}montant à déléguer: $DELEGATE_AMOUNT ${NC}"
 echo -e "${GREEN}montant à déléguer en motes: $DELEGATE_MOTES ${NC}"
 
-echo -e "${RED}\nI Confirmez que toutes ces informations sont correctes (Type YES or NO and hit enter):${NC}"
+echo -e "${RED}\nI Confirmez que toutes ces informations sont correctes (saisissez YES ou NO puis appuyez sur enter):${NC}"
 read ANSWER
 
 if [[ $ANSWER == "YES" ]]
