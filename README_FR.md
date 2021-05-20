@@ -1,6 +1,7 @@
-Casper Delegate Scripts - la manière de la ligne de commande
-Ces scripts sont écrits pour aider les détenteurs de jetons CSPR à déléguer facilement leurs jetons aux validateurs sur le réseau principal Casper
- jusqu'à ce qu'une solution d'interface utilisateur complète arrive.
+<h1>CasperDelegate Scripts </h1> 
+
+la manière de la ligne de commande
+Ces scripts sont écrits pour aider les détenteurs de jetons CSPR à déléguer facilement leurs jetons aux validateurs sur le réseau principal Casper jusqu'à ce qu'une solution d'interface utilisateur complète arrive.
   
 
 Vous avez des questions sur la délégation / le jalonnement Casper?
