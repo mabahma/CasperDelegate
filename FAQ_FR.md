@@ -16,9 +16,9 @@ a indiqué son intention d'exploiter un serveur sur le réseau. Ces opérateurs 
 À quelle fréquence les récompenses de jalonnement sont-elles payées?
 Les récompenses de Staking sont versées sur votre compte sur une base ERA. One Era est actuellement défini sur 2 heures et chaque bloc est défini sur 65 secondes.
 
-<h2>Y a-t-il une période de refroidissement ( cool-down) / verrouillage après la délégation?</h2>
+<h2>Y a-t-il une période de gel ( cool-down) / verrouillage après la délégation?</h2>
 
-Bien qu'il y ait un délai avant que vous puissiez accéder à vos jetons précédemment délégués, il n'y a pas de période de refroidissement ou de verrouillage après la délégation  de jetons. Vous pouvez annuler la délégation de n'importe quel nombre de jetons à tout moment. Lors de la non-délégation des jetons d'un validateur, le réseau met les fonds en 
+Bien qu'il y ait un délai avant que vous puissiez accéder à vos jetons précédemment délégués, il n'y a pas de période de gel ou de verrouillage après la délégation  de jetons. Vous pouvez annuler la délégation de n'importe quel nombre de jetons à tout moment. Lors de la non-délégation (undelegate) des jetons d'un validateur, le réseau met les fonds en 
  attente pendant 7 époques, environ 14 heures, puis renvoie automatiquement les jetons CSPR sur votre compte.
  
  <h2> Y a-t-il du slashing? Puis-je perdre mes jetons délégués?</h2>
