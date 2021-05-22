@@ -41,12 +41,12 @@ echo -e "\n\n-------------------------------------------------------------------
 
 echo -e "${GREEN}Requirements have been installed. You are ready to delegate.\n"
 
-echo -e "* Sauvegardez votre clé privé private key) avec ce nom : privkey.pem dans votre *home directory*: ${RED}privkey.pem${NC}"
+echo -e "* Sauvegardez votre clé privé (private key) avec ce nom : privkey.pem dans votre *home directory*: ${RED}privkey.pem${NC}"
 echo -e "${GREEN}* Vous pouvez lancer le processus de délégation avec la commande : ${RED}./delegate${NC}"
 echo
 echo -e "${GREEN}* Vous pouvez voir votre solde cspr avec cette commande: ${RED}./balance YOUR-ACCOUNT-ADDRESS${NC}"
 echo
-echo -e "${GREEN}* Note: vosu devz avoir au moins ${RED}3 CSPR${GREEN} dans votre compte en plus du montant que vosu voulez déléguer. C'est le prix du gas
+echo -e "${GREEN}* Note: vous devez avoir au moins ${RED}3 CSPR${GREEN} dans votre compte en plus du montant que vous voulez déléguer. C'est le prix du gas
 pour déléguer.${NC}"
-echo -e "${RED}* ATTENTION: Essayer d'abord la procédure avec de tout petits montants et assurez vous que tout marche avant de la lancer avec de gros montants. Nous déclinons toute responsabilitée en cas de perte des jetons.
+echo -e "${RED}* ATTENTION: Essayer d'abord la procédure avec de tout petits montants et assurez vous que tout marche avant de la lancer avec de gros montants. Nous déclinons toute responsabilité en cas de perte des jetons.
 ${NC}\n"
