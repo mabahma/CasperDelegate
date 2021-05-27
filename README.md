@@ -40,7 +40,7 @@ In order to delegate your tokens, you should have created a wallet for yourself,
 ## Delegation
 * Fund your account and check its balance with `./balance.sh ACCOUNT-ADDRESS`
 * Make sure you have enough number of CSPR in it. You will need at least 3 additional CSPR which will be the cost of the delegation procedure.
-* Find yourself a validator and note down their public key (You're welcome to delegate on our community node: 01c377281132044bd3278b039925eeb3efdb9d99dd5f46d9ec6a764add34581af7)
+* Find yourself a validator and note down their public key (You're welcome to delegate on our  node: 01c6d11a0fa563f8cc3ed5e967d5901c80004bdcde6250ddea18af2b4eae0a902d)
   * Make sure the validator you choose has an acceptable commision rate and is capable of keeping a high uptime.
   * Feel free to join our telegram group if you delegate on our validator node, to get updated on important changes: https://t.me/CasperDelegation
   * Otherwise, you can ask general questions on the official Casper discord server: https://discord.com/invite/Q38s3Vh
