@@ -49,5 +49,5 @@ In order to delegate your tokens, you should have created a wallet for yourself,
 * Take note of the `deployment hash`. If it all goes well, you can see the result of your delegation in a few minutes by copy-pasting your deployment hash on cspr.live.
 
 ## Undelegate
-* You can undelegate your all or part of your tokens by runing thios script:  `./undelgate.sh`
+* You can undelegate your all or part of your tokens by runing thios script:  `./undelegate.sh`
 * Tt will take up to 7 Eras (~14hours) to get your tokens back in your wallet.
