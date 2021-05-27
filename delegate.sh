@@ -29,7 +29,7 @@ read ANSWER
 
 if [[ $ANSWER == "YES" ]]
 then
-  casper-client put-deploy --chain-name casper --node-address http://185.198.72.171:7777 -k $HOME/privkey.pem --session-path "$HOME/casper-node/target/wasm32-unknown-unknown/release/delegate.wasm" --payment-amount 3000000000  --session-arg "validator:public_key='$VALIDATOR_PUBKEY'" --session-arg="amount:u512='$DELEGATE_MOTES'" --session-arg "delegator:public_key='$DELEGATOR_PUBKEY'"
+  casper-client put-deploy --chain-name casper --node-address http://188.165.254.13:7777 -k $HOME/privkey.pem --session-path "$HOME/casper-node/target/wasm32-unknown-unknown/release/delegate.wasm" --payment-amount 3000000000  --session-arg "validator:public_key='$VALIDATOR_PUBKEY'" --session-arg="amount:u512='$DELEGATE_MOTES'" --session-arg "delegator:public_key='$DELEGATOR_PUBKEY'"
 else
   echo "Please run the script again with correct info."
 fi
