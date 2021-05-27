@@ -8,5 +8,5 @@ RED='\033[0;31m'
 GREEN='\033[0;32m'
 NC='\033[0m' # No Color
 
-echo -e "\nNuméro de compte: ${GREEN}$PUBLIC_KEY_HEX ${NC}"
-echo -e "Balance de votre compte: ${GREEN}$BALANCE ${NC} CSPR\n"
+echo -e "\nAccount number: ${GREEN}$PUBLIC_KEY_HEX ${NC}"
+echo -e "Account balance: ${GREEN}$BALANCE ${NC} CSPR\n"
