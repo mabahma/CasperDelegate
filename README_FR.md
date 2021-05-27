@@ -1,9 +1,7 @@
 <h1>Script CasperDelegate  : staker vos jetons cspr en ligne de commande </h1> 
 
-
 Ces scripts sont écrits pour aider les détenteurs de jetons CSPR à déléguer facilement leurs jetons aux validateurs sur le réseau principal Casper jusqu'à ce qu'une solution d'interface utilisateur complète arrive.
   
-
 Vous avez des questions sur la délégation / le staking Casper?
 
 Voir <a href="https://github.com/mabahma/CasperDelegate/blob/main/FAQ_FR.md">la FAQ sur la délégation / le staking de Casper</a>
@@ -71,17 +69,16 @@ Installez les packages et créez les contrats intelligents (smart contrats):  <b
 
 <h1>Délégation </h1>
 
-Approvisionnez votre compte et vérifiez son solde avec <b>./balance.sh ACCOUNT-ADDRESS </b>
+* Approvisionnez votre compte et vérifiez son solde avec <b>./balance.sh ACCOUNT-ADDRESS </b>
 
-Assurez-vous que vous disposez d'un nombre suffisant de CSPR. Vous aurez besoin d'au moins 3 CSPR supplémentaires qui seront le coût de la procédure de délégation.
+* Assurez-vous que vous disposez d'un nombre suffisant de CSPR. Vous aurez besoin d'au moins 3 CSPR supplémentaires qui seront le coût de la procédure de  délégation.
 
-Trouvez-vous un validateur et notez sa clé publique.
+* Trouvez-vous un validateur et notez sa clé publique.
 
 
-Démarrez le script de délégation et suivez les instructions: <b> ./delegate.sh</b>
+* Démarrez le script de délégation et suivez les instructions: <b> ./delegate.sh</b>
 
-Prenez note du hachage du déploiement. Si tout se passe bien, vous pouvez voir le résultat de votre délégation en quelques minutes en copiant-collant votre 
-hachage de déploiement sur cspr.live.
+* Prenez note du   <b>hash </b> du déploiement. Si tout se passe bien, vous pouvez voir le résultat de votre délégation en quelques minutes en copiant-collant votre hash de déploiement sur cspr.live.
 
 
 Vous êtes invité à déléguer sur notre  node qui propose des frais de 1%:  <b>01c6d11a0fa563f8cc3ed5e967d5901c80004bdcde6250ddea18af2b4eae0a902d</b>  

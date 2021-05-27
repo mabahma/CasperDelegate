@@ -3,33 +3,33 @@ RED='\033[0;31m'
 GREEN='\033[0;32m'
 NC='\033[0m' # No Color
 
-echo -e "\n${GREEN}This script helps you delegate your CSPR tokens. Please read the messages carefully, and make sure you understand what is asked for.${NC}\n"
-echo -e "\n${GREEN}Make sure that you have saved your private key file in the home directory with the name 'privkey.pem'.${NC}\n"
+echo -e "\n${GREEN}Ce script vous aidera  à déléguer vos jetons CSPR . Merci de lire les  messages attentivement, et assurez vous que vous comprenez ce qui est demandé .${NC}\n"
+echo -e "\n${GREEN}Assurez vous que vous avez sauvegardé votre  fichier de clé privée <<private key file>> dans votre *home directory* avec le nom 'privkey.pem'.${NC}\n"
 
-echo -e "\n${GREEN}What is your account address (public key)? (Please copy, paste, and hit enter.)${NC}\n"
+echo -e "\n${GREEN}Quelle est l'adresse de votre compte : clé publique (public key)? (copier/coller et appuyez sur enter.)${NC}\n"
 read DELEGATOR_PUBKEY
-echo -e "Entered address: $DELEGATOR_PUBKEY\n"
+echo -e "Saisissez votre adresse: $DELEGATOR_PUBKEY\n"
 
-echo -e "\n${GREEN}Please enter the amount of CSPR you would like to delegate as an integer. (No decimals. 157 is okay but 157.0 and 157.5 are not okay.)${NC}"
+echo -e "\n${GREEN}Saisissez le montant de  CSPR que vous voulez deléguer sous foramt d'un nombe entier. (pas de décimales. 157 est ok  157.0 and 157.5 pas ok .)${NC}"
 read DELEGATE_AMOUNT
 MOTES="000000000"
 DELEGATE_MOTES="$DELEGATE_AMOUNT$MOTES"
 
-echo -e "\n${GREEN}Please enter the address (public key) of the validator you would like to delegate on. (In any case, you are welcome to delegate on our community validator which has been running with 100% uptime so far (copy and paste): 01c377281132044bd3278b039925eeb3efdb9d99dd5f46d9ec6a764add34581af7 )${NC}"
+echo -e "\n${GREEN}Saisissez l'adresse (public key) du validateur auquel vous voulez déléguer. (Vous êtes invité à déléguer sur notre node qui propose des frais de 1%: 01c6d11a0fa563f8cc3ed5e967d5901c80004bdcde6250ddea18af2b4eae0a902d)${NC}"
 read VALIDATOR_PUBKEY
 
-echo -e "\n${RED}Please carefully check the entered info below. Write YES and hit enter if all looks good. Otherwise, write NO and run the script again.${NC}\n"
-echo -e "${GREEN}Delegator public key: $DELEGATOR_PUBKEY ${NC}"
-echo -e "${GREEN}Validator public key: $VALIDATOR_PUBKEY ${NC}"
-echo -e "${GREEN}Amount to be delegated: $DELEGATE_AMOUNT ${NC}"
-echo -e "${GREEN}Amount to be delegated in motes: $DELEGATE_MOTES ${NC}"
+echo -e "\n${RED} Saisissez   YES  puis enter si toutes les informations saisies sont correctes. Sinon , saisissez NO et recommencez à exécuter le script depuis le début.${NC}\n"
+echo -e "${GREEN}Clé publique du délégaunt (Vous): $DELEGATOR_PUBKEY ${NC}"
+echo -e "${GREEN}Clé publique du validateur: $VALIDATOR_PUBKEY ${NC}"
+echo -e "${GREEN}Montant à déléguer: $DELEGATE_AMOUNT ${NC}"
+echo -e "${GREEN}Montant à déléguer en motes: $DELEGATE_MOTES ${NC}"
 
-echo -e "${RED}\nI confirm that all the info above is correct (Type YES or NO and hit enter):${NC}"
+echo -e "${RED}\nI Confirmez que toutes ces informations sont correctes (saisissez YES ou NO puis appuyez sur enter):${NC}"
 read ANSWER
 
 if [[ $ANSWER == "YES" ]]
 then
   casper-client put-deploy --chain-name casper --node-address http://185.198.72.171:7777 -k $HOME/privkey.pem --session-path "$HOME/casper-node/target/wasm32-unknown-unknown/release/delegate.wasm" --payment-amount 3000000000  --session-arg "validator:public_key='$VALIDATOR_PUBKEY'" --session-arg="amount:u512='$DELEGATE_MOTES'" --session-arg "delegator:public_key='$DELEGATOR_PUBKEY'"
 else
-  echo "Please run the script again with correct info."
+  echo "Merci de ré executer le script avec des informations correctes."
 fi
