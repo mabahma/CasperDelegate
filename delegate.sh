@@ -15,7 +15,7 @@ read DELEGATE_AMOUNT
 MOTES="000000000"
 DELEGATE_MOTES="$DELEGATE_AMOUNT$MOTES"
 
-echo -e "\n${GREEN}Please enter the address (public key) of the validator you would like to delegate on. (In any case, you are welcome to delegate on our community validator which has been running with 100% uptime so far (copy and paste): 01c377281132044bd3278b039925eeb3efdb9d99dd5f46d9ec6a764add34581af7 )${NC}"
+echo -e "\n${GREEN}Please enter the address (public key) of the validator you would like to delegate on. (In any case, you are welcome to delegate on our  validator which has been running with 100% uptime so far (copy and paste): 01c6d11a0fa563f8cc3ed5e967d5901c80004bdcde6250ddea18af2b4eae0a902d )${NC}"
 read VALIDATOR_PUBKEY
 
 echo -e "\n${RED}Please carefully check the entered info below. Write YES and hit enter if all looks good. Otherwise, write NO and run the script again.${NC}\n"
